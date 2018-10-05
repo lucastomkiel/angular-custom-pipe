@@ -1,0 +1,10 @@
+<div>
+  <input type="number" [(ngModel)]="first" />
+  <input type="number" [(ngModel)]="second" />
+</div>
+
+<div>
+  <p>
+    Result of sum: {{ result | sum : first : second }}
+  </p>
+</div>
